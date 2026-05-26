@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Aluno</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form>
+
+    <h1>Cadastro Escolar</h1>
+
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+
+      <label for="aluno">Nome do Aluno</label>
+      <input type="text" id="aluno">
+
+      <label for="mae">Nome da Mãe</label>
+      <input type="text" id="mae">
+
+      <label for="pai">Nome do Pai</label>
+      <input type="text" id="pai">
+
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf">
+
+      <label for="rg">RG</label>
+      <input type="text" id="rg">
+
+      <label for="data">Data de Nascimento</label>
+      <input type="date" id="data">
+    </fieldset>
+
+    <fieldset>
+      <legend>Endereço</legend>
+
+      <label for="endereco">Endereço</label>
+      <textarea id="endereco"></textarea>
+
+      <label for="bairro">Bairro</label>
+      <input type="text" id="bairro">
+
+      <label for="cep">CEP</label>
+      <input type="text" id="cep">
+
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade">
+
+      <label for="estado">Estado</label>
+      <input type="text" id="estado">
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações Escolares</legend>
+
+      <label for="serie">Série</label>
+      <select id="serie">
+        <option>1º Ano</option>
+        <option>2º Ano</option>
+        <option>3º Ano</option>
+      </select>
+
+      <label for="turno">Turno</label>
+      <select id="turno">
+        <option>Matutino</option>
+        <option>Vespertino</option>
+        <option>Noturno</option>
+      </select>
+    </fieldset>
+
+    <button type="submit">Cadastrar</button>
+
+  </form>
+
+</body>
+
+</html>
